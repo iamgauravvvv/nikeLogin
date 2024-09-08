@@ -1,0 +1,153 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Now Text"; 
+}
+
+@import url(https://db.onlinewebfonts.com/c/08e020de1811ec4489f82d1247a42c09?family=Helvetica+Now+Text); 
+
+body{
+  
+
+  
+}
+.nav{
+  background-color: white;
+}
+.navContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: white;
+  
+}
+
+.navContainer ul li{
+  display: inline;
+  padding: 12px;
+}
+.navContainer ul li a{
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+
+}
+
+
+.rightbtn{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.rightbtn button{
+background: none;
+border: none;
+cursor: pointer;
+}
+.rightbtn input{
+  padding: 4px;
+  width: 20vh;
+  border-radius: 25px;
+  font-size: 16px;
+}
+/* hero section */
+
+#hero{
+width: 100%;
+}
+
+.heroBackground{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.heroBackground img{
+  width:92%;
+  
+}
+.heroBackground h1{
+  font-size: 50px;
+  font: weight ;
+}
+
+.heroBackground button{
+  padding: 8px;
+  width: 6rem;
+  border-radius: 25px;
+  color: white;
+  background-color: black;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+.exploreBtn{
+  margin: 28px;;
+}
+.exploreBtn:hover{
+  opacity: 60%;
+}
+
+
+/* trending */
+
+#trending{
+  width: 100%;
+}
+
+.trendingPage{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.trendingPage img{
+  width: 92%;
+
+}
+.trendingHead{
+  padding: 8px;
+  width: 15%;;
+  text-align: center;
+
+}
+.trendingBtn{
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  
+}
+
+.trendingBtn button{
+  padding: 8px;
+  width: 10rem;
+  border-radius: 25px;
+  color: white;
+  background-color: black;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+.trendingBtn button:hover{
+  opacity: 60%;
+  
+}
+
+.trendingBtn .shopBtn{
+  width: 6.5rem;
+}
